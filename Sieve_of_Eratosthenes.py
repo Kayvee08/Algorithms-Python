@@ -8,7 +8,7 @@ and we mark all proper multiples of it. And we continue this procedure until we 
 def sieve(n):
     li=[True for i in range(2,n)]
     li.insert(0,False)
-    li.insert(0,False)
+    li.insert(1,False)
     for i in range(2,n):
         if (li[i]):
             j=i
